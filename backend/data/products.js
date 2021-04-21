@@ -1,0 +1,148 @@
+const products = [
+  {
+    name: 'Samsung Galaxy S21 Ultra',
+    image: '/images/Samsungs21ultra.jpg',
+    description:
+      '256 GB, Phantom Silver, 5G , Rear: 108 MP + 10 MP + 10 MP + 12 MP + Laser AF/Front: 40 MP , Dynamic AMOLED 2X , 	Accelerometer, Ambient Light, Barometer, Geomagnetic, Gyro, Hall, Proximity',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 4999.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 12,
+  },
+  {
+    name: 'Samsung Galaxy Note20',
+    image: '/images/samsungnote20+.jpg',
+    description:
+      '512 GB, Mystic Bronze, 5G , Rear: 108 MP + 12 MP + 12 MP/Front: 10 MP , Space Zoom: Optical Zoom at 5X, Digital Zoom up to 50X, Laser AF Sensor , 4500 mAh',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 4599.99,
+    countInStock: 29,
+    rating: 4.0,
+    numReviews: 8,
+  },
+  {
+    name: 'Huawei P40 Pro+',
+    image: '/images/Huaweip40.jpg',
+    description:
+      '512 GB, White Ceramic, 5G , Rear: 50 MP + 40 MP + 8 MP + 8 MP + 3D Depth Cam/Front: 32 MP , SuperZoom: 10X Optical Zoom;Telephoto: 3X Optical Zoom, Ultra-Wide Angle/Depth 4200 mAh',
+    brand: 'Huawei',
+    category: 'Electronics',
+    price: 3099.99,
+    countInStock: 18,
+    rating: 3.0,
+    numReviews: 6,
+  },
+  {
+    name: 'Samsung Galaxy Z Fold2',
+    image: '/images/samsungzflod2.jpg',
+    description:
+      '512 GB, Mystic Bronze, 5G , Rear: 12 MP + 12 MP + 12 MP/Front: 10 MP/Cover Cam: 10 MP, Main Display: 1768 X 2208 Pixels/Cover Display: 816 X 2260 Pixels, 4500 mAh',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 6599.99,
+    countInStock: 10,
+    rating: 4.5,
+    numReviews: 6,
+  },
+  {
+    name: 'Telo Gamez Legion Phone',
+    image: '/images/LegionPhone.jpg',
+    description:
+      '512 GB, Vengeance Red, 5G , 5000 mAh , Qualcomm Snapdragon 865+ , 65W (SuperDart Charge), Dual Front-facing Speakers, Dual 2500 mAh Batteries, Quad-microphone System',
+    brand: 'Lenovo',
+    category: 'Electronics',
+    price: 3599.99,
+    countInStock: 4,
+    rating: 5.0,
+    numReviews: 3,
+  },
+  {
+    name: 'Oppo Reno 5 pro',
+    image: '/images/opporeno5.jpg',
+    description:
+      '256 GB, Galactic Silver, 5G , Rear: 50 MP + 16 MP + 13 MP + 2 MP/Front: 32 MP, Proximity, Acceleration, Gravity, Gyroscope Sensor, Geomagnetic, Light Induction, 4500 mAh',
+    brand: 'Oppo',
+    category: 'Electronics',
+    price: 2599.99,
+    countInStock: 7,
+    rating: 3.5,
+    numReviews: 8,
+  },
+  {
+    name: 'Samsung Galaxy s20 ultra',
+    image: '/images/samsung20ultra.jpg',
+    description:
+      '128 GB, Cosmic Black, 5G, Rear: 108 MP + 12 MP + 12 MP/Front: 10 MP , Space Zoom: Optical Zoom at 5X, Digital Zoom up to 50X, Laser AF Sensor , 4500 mAh',
+    brand: 'Samsung',
+    category: 'Electronics',
+    price: 2399.99,
+    countInStock: 14,
+    rating: 3.5,
+    numReviews: 6,
+  },
+  {
+    name: 'JBL Portable Speaker',
+    image: '/images/jbl.jpg',
+    description: 'Bluetooth, Black , 4" Woofer X 2, 20mm Tweeter X 2',
+    brand: 'JBL',
+    category: 'Electronics',
+    price: 599.99,
+    countInStock: 18,
+    rating: 4.0,
+    numReviews: 8,
+  },
+
+  {
+    name: 'Beats Solo Pro On-Ear Headphones',
+    image: '/images/beatzheadphone.jpg',
+    description:
+      'Bluetooth, Built-in Microphone, Red, unisex , for Smartphone/Tablet (with Bluetooth)',
+    brand: 'Beats',
+    category: 'Electronics',
+    price: 949.99,
+    countInStock: 5,
+    rating: 3,
+    numReviews: 12,
+  },
+  {
+    name: 'Anker Soundcore Life Q10 On-Ear Headphones',
+    image: '/images/ankerheadphone.jpg',
+    description:
+      'Bluetooth, Built-in Microphone, Black , 	60 Hours Battery Life, 40 mm Driver, BassUp, Hi-Res Certified, AUX Mode',
+    brand: 'Anker',
+    category: 'Electronics',
+    price: 399.99,
+    countInStock: 11,
+    rating: 5,
+    numReviews: 12,
+  },
+  {
+    name: 'RAVPower Power Bank',
+    image: '/images/ravpower.jpg',
+    description:
+      'Fast Battery Charging, 20100 mAh, Dual USB (1X USB 2.0/1X USB-C), Camouflage (Green)',
+    brand: 'RavPower',
+    category: 'Electronics',
+    price: 199,
+    countInStock: 7,
+    rating: 4.5,
+    numReviews: 10,
+  },
+  {
+    name: 'Anker Power Bank',
+    image: '/images/ankerpowerbank.jpg',
+    description:
+      'Fast Battery Charging, 13000 mAh, Dual USB, Black with PowerIQ Amp-adjustment Technology',
+    brand: 'Anker',
+    category: 'Electronics',
+    price: 185,
+    countInStock: 0,
+    rating: 4,
+    numReviews: 12,
+  },
+];
+
+export default products;
